@@ -1,7 +1,8 @@
 def function(fName, lName):
-    print(fName + " " + lName)
+    sum = fName * lName
+    print(sum)
 
 
-fName = input(str)
-lName = input(str)
+fName = int(input(float))
+lName = int(input(float))
 function(fName, lName)
