@@ -1,5 +1,5 @@
 def function(fName, lName):
-    sum = fName * lName
+    sum = (fName + lName) * 2
     print(sum)
 
 
