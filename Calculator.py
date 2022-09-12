@@ -1,16 +1,4 @@
-def function_sum(num1, num2):
-    result = num1 + num2
-    print(result)
-def function_substraction(num1, num2):
-    result = num1 - num2
-    print(result)
-def function_multiple(num1, num2):
-    result = num1 * num2
-    print(result)
-
-def function_divide(num1, num2):
-    result = num1 / num2
-    print(result)
+from Calculate import function_sum, function_substraction, function_multiple, function_divide
 
 num1 = input("Enter First Num: ")
 num2 = input("Enter Second Num: ")
