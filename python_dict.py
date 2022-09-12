@@ -1,4 +1,3 @@
-import json
 Best_song_Artist = {
     "Shawn Mendes": "Treat You Better",
     "Justin Bieber": "Love yourself",
@@ -6,10 +5,11 @@ Best_song_Artist = {
     "Charlie Puth": "Marvin gaye",
     "Taylor Swift": "Blank Space",
     "The Weekend": "Blinding Light",
-    "Bruno Mars": "Lazy Song"
+    "Bruno Mars": "Lazy Song",
+    "Platform": {
+        "Spotify": "Music",
+        "Apple Music": "Music",
+        "Joox": "Music"
+    }
 }
-print(Best_song_Artist)
-print(type(Best_song_Artist))
-result = json.dumps(Best_song_Artist)
-print(result)
-print(type(result))
+print(Best_song_Artist["Platform"]["Spotify"])
