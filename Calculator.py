@@ -1,4 +1,4 @@
-from Calculate import function_sum, function_substraction, function_multiple, function_divide
+import Calculate
 
 num1 = input("Enter First Num: ")
 num2 = input("Enter Second Num: ")
@@ -12,10 +12,10 @@ switch = input("calculate: ")
 switch = int(switch)
 match switch:
     case 1:
-        function_sum(num1, num2)
+        Calculate.function_sum(num1, num2)
     case 2:
-        function_substraction(num1, num2)
+        Calculate.function_substraction(num1, num2)
     case 3:
-        function_multiple(num1, num2)
+        Calculate.function_multiple(num1, num2)
     case 4:
-        function_divide(num1, num2)
+        Calculate.function_divide(num1, num2)
