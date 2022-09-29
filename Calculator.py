@@ -12,10 +12,14 @@ switch = input("calculate: ")
 switch = int(switch)
 match switch:
     case 1:
+        print(f"Sum Result: ")
         Calculate.function_sum(num1, num2)
     case 2:
+        print(f"Substraction Result: ")
         Calculate.function_substraction(num1, num2)
     case 3:
+        print(f"Multiple Result: ")
         Calculate.function_multiple(num1, num2)
     case 4:
+        print(f"Divide Result: ")
         Calculate.function_divide(num1, num2)
